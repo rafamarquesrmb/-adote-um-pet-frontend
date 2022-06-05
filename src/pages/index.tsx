@@ -16,8 +16,8 @@ const Home: NextPage = () => {
     setEmail,
     value,
     setValue,
-    message,
-    setMessage,
+    snackMessage,
+    setSnackMessage,
     adopt,
   } = useIndex();
   return (
@@ -77,10 +77,10 @@ const Home: NextPage = () => {
         </DialogActions>
       </Dialog>
       <Snackbar
-        open={message.length>0}
-        message={message}
+        open={ snackMessage.length > 0}
+        message={snackMessage}
         autoHideDuration={2500}
-        onClose={()=> setMessage('')}
+        onClose={()=> setSnackMessage('')}
       />
     </div>
   )
