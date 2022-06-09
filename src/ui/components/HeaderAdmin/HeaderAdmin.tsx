@@ -13,12 +13,12 @@ export default function HeaderAdmin(){
             <div>
                 <Logo src="/images/logo.svg" alt="Adote um pet" />
                 <LinksContainer>
-                    <Link component={NextLink} href="/pets/cadastros">
+                    <Link component={NextLink} href="/pets/admin/registration">
                         <a>
                             Cadastrar pet
                         </a>
                     </Link>
-                    <Link component={NextLink} href="/pets/relatorio">
+                    <Link component={NextLink} href="/pets/admin/report">
                         <a>
                             Reatório
                             <Box

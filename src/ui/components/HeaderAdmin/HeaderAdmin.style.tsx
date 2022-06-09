@@ -26,5 +26,4 @@ export const LinksContainer = styled('nav')`
     gap: ${({theme})=> theme.spacing(2)};
     flex-wrap: wrap;
     justify-content: flex-end;
-
 `;
