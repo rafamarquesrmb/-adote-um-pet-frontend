@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+![author](https://img.shields.io/badge/author-rafamarquesrmb-red.svg)  ![TypeScript](https://img.shields.io/badge/JavaScript-TypeScript-blue.svg) ![Node](https://img.shields.io/badge/Node-16.14.2-green.svg)  ![React](https://img.shields.io/badge/React-18.1.0-blue.svg)  ![NextJs](https://img.shields.io/badge/Next.Js-12.1.6-blue.svg)  
 
-First, run the development server:
+  
+  
+
+# Front End do "Adote Um Pet"
+
+  
+
+<sub>Por: [Rafael Marques @rafamarquesrmb](https://github.com/rafamarquesrmb)</sub>
+
+  
+
+## Sobre
+
+  
+
+Esse projeto foi desenvolvido durante a imersão da [Treinaweb](https://www.treinaweb.com.br/) MultiStack 3ª Edição. Consiste no desenvolvimento de uma aplicação que permite o cadastro de Pets e possibilita aos usuários realizarem "adoções" desses pets. O Frontend é desenvolvido com [Next.JS](https://nextjs.org/) (React), utilizando o Material UI e TypeScript. As conexões com o backend realizadas através do axios.
+
+Já o [Backend](https://github.com/rafamarquesrmb/adote-um-pet-backend), escolhi desenvolver em Python com o [Django](https://www.djangoproject.com/) e [Django REST Framework](https://www.django-rest-framework.org/).
+
+  
+
+Neste repositório, encontra-se o **Frontkend** da aplicação.
+
+  
+
+Entretanto, modifiquei algumas coisas em relação ao apresentado na imersão. Entretanto, preferi fazer tudo no idioma inglês. Vale ressaltar que para a aplicação rodar perfeitamente, é necessário que o servidor (o backend) também esteja rodando.
+
+  
+
+para iniciar o frontend em modo de desenvolvimento, basta utilizar os comandos:
 
 ```bash
+
 npm run dev
+
 # or
+
 yarn dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### A Fazer:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Algumas coisas que pretendo estar fazendo futuramente:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- incluir telas de cadastro e login
 
-## Learn More
+- só usuários devidamente logados podem realizar adoções
 
-To learn more about Next.js, take a look at the following resources:
+- só usuário administradores podem ver a lista de adoções e adicionar pets
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<sub>Por: [Rafael Marques @rafamarquesrmb](https://github.com/rafamarquesrmb)</sub>
